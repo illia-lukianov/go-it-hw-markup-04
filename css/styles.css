@@ -467,6 +467,7 @@ img {
 
 .footer-container {
         display: flex;
+        align-items: baseline
 }
 
 .full-footer-logo {
@@ -522,22 +523,7 @@ img {
         fill: #f4f4fd;
 }
 
-.footer-socials-instagram-link:hover {
-        background-color: #31d0aa;
-        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer-socials-twitter-link:hover {
-        background-color: #31d0aa;
-        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer-socials-facebook-link:hover {
-        background-color: #31d0aa;
-        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer-socials-linkedin-link:hover {
+.footer-socials-link:hover {
         background-color: #31d0aa;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -546,22 +532,6 @@ img {
         background-color: #31d0aa;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.footer-socials-twitter-link:focus {
-        background-color: #31d0aa;
-        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer-socials-facebook-link:focus {
-        background-color: #31d0aa;
-        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer-socials-linkedin-link:focus {
-        background-color: #31d0aa;
-        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 /* #endregion*/
 /*#region Logo*/
 .logo {
