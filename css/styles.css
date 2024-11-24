@@ -236,6 +236,9 @@ img {
         background-color: #404BBF;
 }
 
+.hero-button:focus {
+        background-color: #404BBF;
+}
 /* #endregion*/
 /* #region Studios */
 .studios {
@@ -351,11 +354,11 @@ img {
 }
 
 .contacts-item:hover .socials-link {
-        background: #404bbf;
+        background-color: #404bbf;
 }
 
-.contacts-item:focus .socials-link {
-        background: #404bbf;
+.contacts-item:foc .socials-link {
+        background-color: #404bbf;
 }
 
 .socials-contacts-item {
