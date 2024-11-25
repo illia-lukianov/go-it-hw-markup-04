@@ -191,17 +191,15 @@ img {
 
 /* #endregion */
 /* #region Hero */
-.hero-section{}
-
-.hero-container {
-        padding: 188px;
+.hero-section{
+        padding: 0 188px;
         background-color: rgb(46, 47, 66);
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/bck_hero.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
         max-width: 1440px;
-        width:100%;
+        width: 100%;
         margin: 0 auto;
 }
 
@@ -292,9 +290,7 @@ img {
 
 /* #endregion*/
 /* #region Contacts */
-.contacts-section{}
-
-.contacts-container {
+.contacts-section{
         padding: 120px 0;
         background-color: #F4F4FD;
 }
@@ -328,8 +324,6 @@ img {
         padding: 32px 0;
 }
 
-.contacts-img {}
-
 .contacts-subtitle {
         color: rgb(46, 47, 66);
         font-size: 20px;
@@ -351,7 +345,7 @@ img {
 
 .socials-list-contacts {
         gap: 24px;
-        margin: 8px 16px;
+        margin-top: 8px;
         display: flex;
         justify-content: center;
 }
